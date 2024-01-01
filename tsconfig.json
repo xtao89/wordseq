@@ -1,0 +1,17 @@
+{
+    "moduleResolution": "node",
+    "compilerOptions": {
+        "target": "ES6",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+      "lib": [
+//        "esnext",
+        "es6",
+        "dom"
+      ]
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.vue"
+    ]
+}

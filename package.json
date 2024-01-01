@@ -1,0 +1,20 @@
+{
+  "name": "wordseq",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/office-js": "^1.0.348",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
