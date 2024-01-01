@@ -12,7 +12,7 @@ With **Wordseq** you can have such types of sequences as:
 1. Download the repo, open it with VSCode or WebStorm, in the terminal move to the root directory, run `npm install`
 2. After packages installed, execute `npm run dev` to run Vite sever
 3. Then you need configure MS Word to authorize the Addin, the simplest way is to a shared folder with the manifest file (wordseq.xml) in it, see <https://learn.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins#share-a-folder>
-4. Open MS Word(Version>=2020), if everything is OK, you'll see the **Wordseq** ribbon at the back of the Home tab 
+4. Open MS Word(Version>=2020), if everything is OK, you'll see the **Wordseq** ribbon button at the back of the Home tab 
 
 # Generate sequences
 In **Sequence Operation** pane, just hit the relevant sequence type, 
@@ -45,5 +45,5 @@ Concerning the variables in the template we can conclude as follows:
 - a '#', means the self sequence alternative
 - a '#*name*', means the named sequence alternative
 
-That's it. Just get hands on it. 
+That's it. Just get hands on it and add your own sequences. 
 Have fun.
